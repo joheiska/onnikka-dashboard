@@ -1,0 +1,28 @@
+.weight-table-card {
+  margin: 0px 10px 0px 10px;
+}
+
+.weight-table {
+  padding: 0px;
+  table-layout: fixed
+}
+
+.weight-table th {
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .weight-table {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .weight-table-card {
+    margin: 0;
+  }
+
+  .weight-table {
+    padding: 20px;
+  }
+}

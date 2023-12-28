@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getWeightData } from '../api/api';
 import Title from '../components/Title';
+import './WeightView.css';
 
 function WeightView() {
   const [weightData, setWeightData] = useState([]);
@@ -35,9 +36,9 @@ function WeightView() {
                   <tr key={index}>
                     <td>{item.monthName}</td>
                     <td>{item.count}</td>
-                    <td>{item.averageChange}</td>
-                    <td>{item.medianChange}</td>
-                    <td>{item.standardDeviation}</td>
+                    <td>{item.averageChange?.toFixed(1)}</td>
+                    <td>{item.medianChange?.toFixed(1)}</td>
+                    <td>{item.standardDeviation?.toFixed(1)}</td>
                   </tr>
                 );
               })}

@@ -99,21 +99,9 @@ table td {
   background-color: rgba(0, 0, 0, 0.10);
 }
 
-.weight-table-card {
-  margin: 0px 10px 0px 10px;
-}
-
-.weight-table {
-  padding: 0px;
-}
-
 @media (min-width: 640px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .weight-table {
-    padding: 10px;
   }
 }
 
@@ -121,13 +109,5 @@ table td {
   .grid { 
     grid-template-columns: repeat(3, 1fr);
     margin: 0;
-  }
-
-  .weight-table-card {
-    margin: 0;
-  }
-
-  .weight-table {
-    padding: 20px;
   }
 }

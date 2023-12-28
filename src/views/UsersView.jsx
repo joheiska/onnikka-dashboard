@@ -13,7 +13,7 @@ function UserHistoryTable({data}) {
       </thead>
       <tbody>
         {data.map((item, index) => {
-          const date = item.date.toISOString().split('T')[0];
+          const date = item.date?.toISOString().split('T')[0];
           return(
             <tr key={index}>
               <td>{date}</td>
