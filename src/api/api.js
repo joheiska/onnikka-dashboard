@@ -1,4 +1,4 @@
-import usersData from '../data/usersData.json';
+import usersData from './data/usersData.json';
 
 export function getUserData() {
   return new Promise((resolve) => {
