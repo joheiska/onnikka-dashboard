@@ -13,7 +13,6 @@ function App() {
       <div className="content-area">
         <div className="container">
           <UsersView />
-          <div className="divider"/>
           <WeightView />
         </div>
       </div>

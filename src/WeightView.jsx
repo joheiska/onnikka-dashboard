@@ -1,7 +1,9 @@
+import Title from './components/Title';
+
 function WeightView() {
   return (
     <>
-      <h2>Weight Data</h2>
+      <Title text="Weight Data" />
       <div className="card">content</div>
     </>
   );

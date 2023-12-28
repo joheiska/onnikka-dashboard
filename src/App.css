@@ -15,6 +15,13 @@
   margin: 0 auto;
 }
 
+.grid {
+  display: grid;
+  gap: 20px;
+  align-items: start;
+  margin: 0px 10px 0px 10px;
+}
+
 header, footer {
   background-color: #ebebeb;
   text-align: center;
@@ -46,15 +53,42 @@ h4 {
   font-weight: 500;
 }
 
+.title {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
 .card {
+  padding: 8px;
   border-radius: 8px;
   background-color: #ebebeb;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
 }
 
+.text-center {
+  text-align: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+
 .divider {
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0px 10px 0px;
   height: 1px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.10);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid { 
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
+  }
 }
