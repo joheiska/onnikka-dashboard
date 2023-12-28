@@ -8,6 +8,7 @@
 .content-area {
   flex: auto;
   background-color: #dddddd;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -23,21 +24,18 @@
 }
 
 header, footer {
-  background-color: #ebebeb;
+  background-color: #ee5e1f;
+  color: #fff;
   text-align: center;
+  padding: 10px;
 }
 
 header {
-  border-bottom: 1px solid #ee5e1f;
+  border-bottom: 1px solid #d85218;
 }
 
 footer {
-  border-top: 1px solid #ee5e1f;
-}
-
-h1, h2, h4 {
-  color: #454545;
-  font-weight: 600;
+  border-top: 1px solid #d85218;
 }
 
 h1 {
@@ -49,13 +47,34 @@ h2 {
 }
 
 h4 {
+  color: #454545;
   font-size: 16px;
   font-weight: 500;
+  margin: 2px;
+}
+
+.counter-text {
+  font-size: 18px;
+  color: #454545;
+  font-weight: 600;
+  margin: 20px;
+}
+
+table th {
+  background-color: #dddddd;
+  color: #454545;
+  padding: 6px 0px 6px 0px;
+}
+
+table td {
+  padding: 4px 0px 4px 0px;
+  border-bottom: 1px solid #dddddd;
 }
 
 .title {
+  color: #454545;
   width: 100%;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 5px 0px;
 }
 
 .card {

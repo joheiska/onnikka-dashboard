@@ -18,7 +18,7 @@ function App() {
       </div>
       <footer>
         <div className="container">
-          <h4>© 2023</h4>
+          <p>© 2023</p>
         </div>
       </footer>
     </div>

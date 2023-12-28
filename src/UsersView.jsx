@@ -44,17 +44,17 @@ function UsersView() {
       ) : (
         <div className="grid">
           <div className="card text-center">
-            Current users
+            <h4>Current users</h4>
             <div className="divider" />
-            <p>{usersData.slice(-1)[0].users}</p>
+            <p className="counter-text">{usersData.slice(-1)[0].users}</p>
           </div>
           <div className="card text-center">
-            Monthly new users
+            <h4>Monthly new users</h4>
             <div className="divider" />
-            <p>{usersData.slice(-1)[0].users - usersData.slice(-2)[0].users}</p>
+            <p className="counter-text">{usersData.slice(-1)[0].users - usersData.slice(-2)[0].users}</p>
           </div>
           <div className="card text-center">
-            Users history
+            <h4>Users history</h4>
             <div className="divider" />
             <UserHistoryTable data={usersData} />
           </div>
