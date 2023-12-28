@@ -1,0 +1,47 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.content-area {
+  flex: auto;
+  background-color: #d9d9d9;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background-color: #ebebeb;
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid #ee5e1f;
+}
+
+footer {
+  border-top: 1px solid #ee5e1f;
+}
+
+h1, h2, h4 {
+  color: #454545;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
