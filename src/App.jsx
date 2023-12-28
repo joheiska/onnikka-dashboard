@@ -1,4 +1,6 @@
 import './App.css';
+import UsersView from './UsersView';
+import WeightView from './WeightView';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       </header>
       <div className="content-area">
         <div className="container">
-          <h2>title</h2>
+          <UsersView />
+          <div className="divider"/>
+          <WeightView />
         </div>
       </div>
       <footer>
