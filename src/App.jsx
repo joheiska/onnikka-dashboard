@@ -1,6 +1,6 @@
 import './App.css';
-import UsersView from './UsersView';
-import WeightView from './WeightView';
+import UsersView from './views/UsersView';
+import WeightView from './views/WeightView';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { getUserData } from './api/api';
-import Title from './components/Title';
+import { getUserData } from '../api/api';
+import Title from '../components/Title';
 
 function UserHistoryTable({data}) {
   return (
@@ -46,12 +46,16 @@ function UsersView() {
           <div className="card text-center">
             <h4>Current users</h4>
             <div className="divider" />
-            <p className="counter-text">{usersData.slice(-1)[0].users}</p>
+            <p className="counter-text">
+              {usersData.slice(-1)[0].users}
+            </p>
           </div>
           <div className="card text-center">
             <h4>Monthly new users</h4>
             <div className="divider" />
-            <p className="counter-text">{usersData.slice(-1)[0].users - usersData.slice(-2)[0].users}</p>
+            <p className="counter-text">
+              {usersData.slice(-1)[0].users - usersData.slice(-2)[0].users}
+            </p>
           </div>
           <div className="card text-center">
             <h4>Users history</h4>
