@@ -1,3 +1,18 @@
+header, footer {
+  background-color: #ee5e1f;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  border-bottom: 1px solid #d85218;
+}
+
+footer {
+  border-top: 1px solid #d85218;
+}
+
 .main-wrapper {
   display: flex;
   flex-direction: column;
@@ -20,22 +35,14 @@
   display: grid;
   gap: 20px;
   align-items: start;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px;
 }
 
-header, footer {
-  background-color: #ee5e1f;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
-
-header {
-  border-bottom: 1px solid #d85218;
-}
-
-footer {
-  border-top: 1px solid #d85218;
+.card {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #ebebeb;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
 }
 
 h1 {
@@ -53,6 +60,12 @@ h4 {
   margin: 2px;
 }
 
+.title {
+  color: #454545;
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+}
+
 .counter-text {
   font-size: 18px;
   color: #454545;
@@ -60,43 +73,38 @@ h4 {
   margin: 20px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+}
+
 table th {
   background-color: #dddddd;
   color: #454545;
-  padding: 6px 0px 6px 0px;
+  padding: 6px 0px;
 }
 
 table td {
-  padding: 4px 0px 4px 0px;
+  padding: 4px 0px;
   border-bottom: 1px solid #dddddd;
 }
 
-.title {
-  color: #454545;
+.divider {
+  margin: 10px 0px;
+  height: 1px;
   width: 100%;
-  padding: 20px 0px 5px 0px;
-}
-
-.card {
-  padding: 8px;
-  border-radius: 8px;
-  background-color: #ebebeb;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.05);
-}
-
-.text-center {
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.10);
 }
 
 .width-100 {
   width: 100%;
 }
 
-.divider {
-  margin: 10px 0px 10px 0px;
-  height: 1px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.10);
+.margin-y {
+  margin: 40px 0px;
 }
 
 @media (min-width: 640px) {
