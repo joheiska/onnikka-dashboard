@@ -1,7 +1,6 @@
 # Onnikka dashboard
-Simple hypothetical data analytics demo page with basic responsiveness support made with vanilla css.  
-Mock data comes from the ```api.js``` file,  where it is formatted ready to be used in components.  
-The actual API calls would eventually go there as well.
+Simple hypothetical analytics page with basic responsiveness support.  
+Mock data comes from the ```api.js``` "service" file, the actual API calls would eventually replace those functions.
 
 ## Requirements
 - Nodejs version >= 18
@@ -11,5 +10,6 @@ The actual API calls would eventually go there as well.
 1. Clone repo
 2. Install packages with ```yarn install```
 3. Run dev version with ```yarn dev```
+4. Connect to the app with ```http://localhost:5173```
 
 You can also check the build version by building the project with ```yarn build``` and previewing it with ```yarn preview```. 
